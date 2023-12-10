@@ -1,10 +1,10 @@
-/** @type {import('tailwindcss').Config} */
+// tailwind.config.js
 module.exports = {
+  // other configurations
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    './src/**/*.html',
+    './src/**/*.vue',
+    './src/**/*.jsx',
+    // Add any other file types your project uses
   ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
 }
