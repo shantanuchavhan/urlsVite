@@ -11,7 +11,6 @@
     "lucide-react": "^0.294.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
     "shadcn-ui": "^0.4.1",
     "tailwind-merge": "^2.1.0",
     "tailwindcss": "^3.3.6",
@@ -19,8 +18,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "vite serve",
+    "dev": "vite",
+    "build": "vite build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build:css": "tailwindcss build styles.css -o output.css"
@@ -32,7 +32,9 @@
     ]
   },
   "devDependencies": {
-    "react-router-dom": "^6.20.1"
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "react-router-dom": "^6.20.1",
+    "vite": "^5.0.7"
   }
- 
 }
