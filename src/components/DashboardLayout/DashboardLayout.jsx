@@ -17,7 +17,6 @@ const DashboardLayout = () => {
             <Outlet />
           </div>
       </div>
-      
     </div>
   )
 }
